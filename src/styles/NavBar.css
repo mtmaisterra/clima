@@ -1,0 +1,16 @@
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    width: full;
+    background-color: rgba(0, 0, 255, 0.519);
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    align-items: center;
+}
+
+.nav-title {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

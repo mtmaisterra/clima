@@ -1,0 +1,87 @@
+.body {
+    font-family: Georgia;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.app-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.app-form {
+    margin-bottom: 20px;
+    align-content: center;
+}
+
+.app-input {
+    width: 80%;
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #0d0d0d;
+    border-radius: 4px;
+    font-family: Arial;
+    font-size: 1.25rem;
+}
+
+.app-button {
+    padding: 10px 10px;
+    margin-left: 4px;
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 1.25rem;
+    cursor: pointer;
+   box-shadow: 4px 4px 0 0 gray;
+}
+
+.app-button:hover {
+    background-color: #0056b3;
+}
+
+.app-respuesta {
+    text-align: center;
+}
+
+.app-h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.app-p {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.app-img {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+/* Estilos para móviles */
+@media (max-width: 600px) {
+    .app-input {
+        font-size: 14px;
+    }
+
+    .app-button {
+        padding: 8px 16px;
+    }
+
+    .app-h2 {
+        font-size: 18px;
+    }
+
+    .app-p {
+        font-size: 14px;
+    }
+
+    .app-img {
+        width: 40px;
+        height: 40px;
+    }
+}
